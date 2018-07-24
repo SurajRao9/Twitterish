@@ -1,0 +1,54 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+.avatar {
+  height:35px;
+  width:35px;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+// .dropdown {
+//   float: left;
+//   overflow: hidden;
+// }
+//
+// .dropdown .dropbtn {
+//   border: none;
+//   outline: none;
+//   color: white;
+//   padding: 14px 16px;
+//   background-color: inherit;
+//   font-family: inherit;
+//   margin: 0
+// }
+//
+// .dropdown-content {
+//   display: none;
+//   position: absolute;
+//   box-shadow: 0px 8px 16px 0px;
+//   z-index: 1;
+//   float: none;
+//   display: block;
+//   color: white;
+// }
+//
+// .dropdown:hover .dropdown-content {
+//   display: block;
+// }

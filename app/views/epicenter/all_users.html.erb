@@ -1,0 +1,9 @@
+<h1>All Tweeters</h1>
+
+<div class="row">
+
+  <% @users.each do |user| %>
+    <%= render 'epicenter/user', user: user %>
+  <% end %>
+
+</div>
